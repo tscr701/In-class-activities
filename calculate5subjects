@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	Calculate average for 5 subjects
+</title>
+
+<script>
+
+	var eng=parseInt(prompt("Please input the score of English"));
+	var math=parseInt(prompt("Please input the score of Mathematics"));
+	var sci=parseInt(prompt("Please input the score of Science"));
+	var hist=parseInt(prompt("Please input the score of History"));
+	var mus=parseInt(prompt("Please input the score of Music"));
+	var counter=0;
+	
+	while (counter==0)
+	{
+		counter ++;
+		document.write("English : " + eng + "<br>");
+		document.write("Mathematics : " + math + "<br>");
+		document.write("Science : " + sci + "<br>");
+		document.write("History : " + hist + "<br>");
+		document.write("Music : " + mus + "<br><br>");
+		
+		var score=((eng+math+sci+hist+mus)/5);
+		document.write("The average of all 5 subjects is " + score + ".");
+	}
+</script>
+<body>
+</body>
+</head>
+</html>
