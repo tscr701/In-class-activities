@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+<body>
+<script>
+  var i= 100;
+  while (i!= 0)
+  {
+    document.write(i +"<br>")
+    i=i-1
+  }
+   document.write("Finished")
+  </script>
+</body>
+</html>
