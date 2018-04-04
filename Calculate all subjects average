@@ -1,0 +1,13 @@
+<script>
+    var score=parseInt(prompt("Input the score:"));
+    var tscore=0;
+    var counter=0;
+  
+  while (score !=-1)
+    {
+      tscore=tscore+score;
+      counter++;
+      score=parseInt(prompt("Input the score:"));
+    }
+    document.write("The average of all subject(s) is " +(tscore/counter) + "<br>");
+  </script>
