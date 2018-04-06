@@ -1,0 +1,14 @@
+<script>
+  function tax()
+  {
+    var gross=parseInt(prompt("Please input the gross income: "));
+    var rate=parseInt(prompt("Please input the tax rate :"));
+    var tax=(gross*(rate/100));
+    var aft_tax=(gross-tax);
+    document.write("Your gross income is : " + gross +"<br>");
+    document.write("and the tax rate is : " + rate +'%'+"<br>");
+    document.write("The tax you have to pay is : " + tax +"<br>");
+    document.write("And, the net income is " + aft_tax +"<br>");
+  }
+  tax()
+  </script>
